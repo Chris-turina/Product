@@ -1,9 +1,13 @@
+/*font-family: 'Abril Fatface', cursive;*/
+/*font-family: 'Russo One', sans-serif;*/
+
 body {
  /*background-color: #000;*/
- color: #000;
+ color: #09d;
 background-image: url(../img/background2.jpg);
 background-repeat: no-repeat;
-background-size: 100% 100%;
+background-size: cover;
+font-family: 'Russo One', sans-serif;
 }
 
 * {
@@ -16,14 +20,10 @@ background-size: 100% 100%;
   position: relative;
   margin: auto;
   width: 1200px;
-  height: 120%;
+  height: 130%;
   border: 2px solid #fff;
   /*border-left: 2px solid #fff;
   border-right: 2px solid #fff;*/
-}
-
-.box {
-
 }
 
 #hr-moniter {
@@ -38,7 +38,7 @@ background-size: 100% 100%;
 }
 
 .title {
-  color: #fff;
+  color: #09d;
   display: inline;
   text-align: center;
   width: 40%;
@@ -55,7 +55,8 @@ background-size: 100% 100%;
 }
 
 #big-title {
-  font-size: 50px;
+  font-size: 100px;
+  margin: 0;
 }
 
 #small-title {
@@ -63,14 +64,13 @@ background-size: 100% 100%;
 
 .summary {
   text-align: justify;
-  font-weight: bold;
   color: #000;
-  font-size: 20px;
+  font-size: 18px;
   display: inline;
   width: 27%;
   padding: 15px;
   position: absolute;
-  top: 450px;
+  top: 400px;
   left: 11%;
   text-shadow:
   -2px -2px 20px #fff,
@@ -85,12 +85,8 @@ background-size: 100% 100%;
 .features {
   text-align: center;
   position: absolute;
-  top: 450px;
+  top: 400px;
   left: 45%;
-}
-
-.features-title {
-  color: white;
 }
 
 /*Features Table*/
@@ -101,12 +97,17 @@ table {
 }
 
 thead {
-  color: white;
+  color: #09d;
 }
 
 .price {
   color: white;
   font-size: 20px;
+  text-shadow:
+  -2px -2px 20px #000,
+  2px -2px 20px #000,
+  -2px 2px 20px #000,
+  2px 2px 20px #000;
 }
 
 .rt-border {
@@ -114,13 +115,6 @@ thead {
   font-weight: bold;
 }
 
-/*.row-odd {
-  background-color: grey;
-}
-
-.row-even {
-  background-color: #fff;
-}*/
 
 th {
   border: 2px solid #fff;
@@ -138,10 +132,10 @@ td {
   width: 150px;
   border-bottom: 2px solid #fff;
   text-shadow:
-  -2px -2px 20px #fff,
-  2px -2px 20px #fff,
-  -2px 2px 20px #fff,
-  2px 2px 20px #fff;
+  -2px -2px 20px #000,
+  2px -2px 20px #000,
+  -2px 2px 20px #000,
+  2px 2px 20px #000;
 }
 
 .check {
@@ -157,7 +151,7 @@ td {
 
 .img-gallery {
   position: absolute;
-  top: 750px;
+  top: 767px;
   left: 10%;
   /*background-color: #000;*/
 }
@@ -174,5 +168,6 @@ td {
   width:  30%;
   height: 100px;
   margin: 15px;
-  box-shadow: 0 0 25px #000;
+  border: 2px solid #fff;
+  box-shadow: 0 0 15px #fff;
 }

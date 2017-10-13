@@ -54,12 +54,15 @@ font-family: 'Russo One', sans-serif;
   /*border: 1px solid black;*/
 }
 
+
 #big-title {
   font-size: 100px;
   margin: 0;
 }
 
-#small-title {
+#big-title:hover {
+  font-size:150px;
+  transition: ease 1s;
 }
 
 .summary {
@@ -77,9 +80,12 @@ font-family: 'Russo One', sans-serif;
   2px -2px 20px #fff,
   -2px 2px 20px #fff,
   2px 2px 20px #fff;
-
   border: 2px solid #fff;
   box-shadow: 0 0 25px #fff;
+}
+
+.summary::first-line{
+  font-size: 20px;
 }
 
 .features {

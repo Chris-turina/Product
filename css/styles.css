@@ -63,14 +63,15 @@ background-size: 100% 100%;
 
 .summary {
   text-align: justify;
+  font-weight: bold;
   color: #000;
   font-size: 20px;
   display: inline;
   width: 27%;
-  padding: 10px;
+  padding: 15px;
   position: absolute;
   top: 450px;
-  left: 13%;
+  left: 11%;
   text-shadow:
   -2px -2px 20px #fff,
   2px -2px 20px #fff,
@@ -143,13 +144,22 @@ td {
   2px 2px 20px #fff;
 }
 
+.check {
+  text-shadow:
+  -2px -2px 20px #000,
+  2px -2px 20px #000,
+  -2px 2px 20px #000,
+  2px 2px 20px #000;
+}
 
 
 
 
 .img-gallery {
-  position: absolute;left: 50%;
-  background-color: #000;
+  position: absolute;
+  top: 750px;
+  left: 10%;
+  /*background-color: #000;*/
 }
 
 .row {
@@ -161,8 +171,8 @@ td {
 
 .img {
   display: inline;
-  width:  40%;
-  height: 130px;
+  width:  30%;
+  height: 100px;
   margin: 15px;
-  /*box-shadow: 10px 5px 5px black;*/
+  box-shadow: 0 0 25px #000;
 }
